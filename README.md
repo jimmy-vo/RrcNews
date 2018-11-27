@@ -42,5 +42,13 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 
 ## Deployment Instruction
 ### Prerequisites
-Download the latest version of XAMPP: [Download](https://www.apachefriends.org/download.html) 
-
+ * Download and install the latest version of XAMPP: [Download](https://www.apachefriends.org/download.html) 
+ * Run XAMPP 
+   * Start Apache
+   * Start MySQL
+ * On PhpMyAdmin (http://localhost/phpmyadmin/)
+   * Create new database: "serverside"
+   * Create new user:
+     * username: "root"
+     * password: ""
+     * Global privileges: ALL PRIVILEGES
