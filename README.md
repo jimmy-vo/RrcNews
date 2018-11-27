@@ -21,12 +21,15 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 ```
 
 ## Demonstration:
+```
 * Main page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Main.JPG)
 * Full-post page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Full.JPG)
 * Edit page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Edit.JPG)
 * Login page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Login.JPG)
+```
 
 ## Non-functional requirements
+```
 * Implemented using PHP, CSS, Jquery, SQL- Relational Database.
 * Deployed by MyPhpAdmin and XAMPP.
 * Using Ajax on registration page for available usernames.
@@ -34,10 +37,15 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 * Implemented validation rules that are used on the data provided when creating and updating pages
 * Sanitized and validated the numericality of all ids retrieved from GET or POST parameters used in SQL queries.
 * Sanitized all strings retrieved from GET or POST parameters to prevent HTML injection attacks.
+```
 
 ## Relational Database
+```
 ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_ERD.png)
+```
 
 ## Deployment Instruction
 ### Prerequisites
+```
+Download the latest version of XAMPP: [Download](https://www.apachefriends.org/download.html) 
 
