@@ -1,6 +1,7 @@
 # RrcNews
 ## Description
-This is a demonstration of deploying a CMS Sites using Php and SQL Database
+This is a demonstration of deploying a Content Management System (CMS) Sites using Php and SQL Database and other technologies.
+A CMS is an application that is used to allow its authenticated users to create, read, update and delete content from a central source. CMSs are often used in sites that involve blogs, shopping, and news.
 
 ## Features
 ```
