@@ -90,7 +90,7 @@
 <head>
 	<?php include("Header.php");?>	
 	<?php if (isset($getRegister)): ?>
-		<script  src="Authentication.js"></script>	
+		<script  src="js/Authentication.js"></script>	
 	<?php endif  ?>
 </head>
 <body>

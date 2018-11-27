@@ -153,7 +153,7 @@
 <html lang="en">
 <head>
 	<?php include("Header.php");?>
-	<script src="Edit.js"></script>
+	<script src="js/Edit.js"></script>
 </head>
 <body>
 	<?php include("Banner.php");?>
