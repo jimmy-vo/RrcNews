@@ -43,6 +43,8 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 ## Deployment Instruction
 ### Prerequisites
  * Download and install the latest version of XAMPP: [Download](https://www.apachefriends.org/download.html) 
+ 
+### Deployment
  * Run XAMPP 
    * Start Apache
    * Start MySQL
@@ -53,3 +55,5 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
      * password: ""
      * Global privileges: ALL PRIVILEGES
    * Execute the give database schema under [doc/setup.sql](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/setup.sql) 
+ * Copy this project to C:\xampp\htdocs
+ * Open http://localhost/RrcNews
