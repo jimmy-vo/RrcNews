@@ -1,12 +1,9 @@
 # RrcNews
 ## Description
 This is a demonstration of deploying a CMS Sites using Php and SQL Database
-* Main page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Main.JPG)
-* Full-post page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Full.JPG)
-* Edit page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Edit.JPG)
-* Login page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Login.JPG)
 
-## Feature
+## Features
+```
 * Login, registration.
 * List of articles is available on any page.
 * Create, read, update and delete posts:
@@ -21,6 +18,13 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
   * Admin user is able to delete or hide/show comments or by normal user's posts.
   * Normal user is able to delete their posts but not other's posts.
 * Logged in user is able to sort posts by title, content, data created, date updated ascending or descending.
+```
+
+## Demonstration:
+* Main page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Main.JPG)
+* Full-post page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Full.JPG)
+* Edit page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Edit.JPG)
+* Login page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Login.JPG)
 
 ## Non-functional requirements
 * Implemented using PHP, CSS, Jquery, SQL- Relational Database.
@@ -33,4 +37,7 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 
 ## Relational Database
 ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_ERD.png)
+
+## Deployment Instruction
+### Prerequisites
 
