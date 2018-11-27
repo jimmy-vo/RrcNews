@@ -52,3 +52,4 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
      * username: "root"
      * password: ""
      * Global privileges: ALL PRIVILEGES
+   * Execute the give database schema under [doc/setup.sql](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/setup.sql) 
