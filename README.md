@@ -23,6 +23,10 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 * Implemented using PHP, CSS, Jquery, SQL- Relational Database.
 * Deployed by MyPhpAdmin and XAMPP.
 * Using Ajax on registration page for available usernames.
+* Cookies or Sessions
+* Implemented validation rules that are used on the data provided when creating and updating pages
+* Sanitized and validated the numericality of all ids retrieved from GET or POST parameters used in SQL queries.
+* Sanitized all strings retrieved from GET or POST parameters to prevent HTML injection attacks.
 
 ## Relational Database
 ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/ER%20Diagram.png)
