@@ -1,0 +1,425 @@
+label {
+    display: block;
+    font-size: 1.3em;
+}
+
+
+textarea {
+    height: 10em;
+    width: 55em;
+}
+
+body {
+    text-align: center;
+    background: #222222;    
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+#wrapper {
+    width: 1080px;
+    margin: 10px auto;
+    text-align: left;
+    border: 1px solid grey;
+    padding: 20px;
+    background: #f1f6fa;
+    border-radius:  25px;
+}
+
+div.blog_post h2 a, div#header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog_post small a
+{
+    float: right;
+}
+
+label
+{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+div.blog_post h2 {
+    margin-bottom: 0;
+}
+
+div.blog_post p {
+    margin-top: 0;
+}
+
+div.blog_post div.blog_content p {
+    margin-top: 0.5em;
+}
+
+h1, h2 
+{
+    font-family: Cambria, times, serif;
+}
+
+div.blog_content 
+{
+    font-family: Calibri, sans-serif;
+}
+
+
+div#footer 
+{
+    text-align: right;
+    margin-top: 10px;    
+}
+
+#all_blogs 
+{
+    border: 1px solid grey;
+    padding: 0 10px 10px 10px;        
+    display: flex;  
+    flex-flow: row wrap;
+    width: 70%;
+    float: right;
+    background: white;
+    border-radius:  25px;
+}
+#menu
+{    
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width:  27%;
+    float: left;
+}
+
+#menu ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu h1
+{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px grey;
+    position: relative;
+    left: -10px;
+
+}
+
+#menu li 
+{
+	margin: 0px;
+	padding-bottom: 10px;
+    border: 1px black;
+}
+
+.blog_post {
+    width: 100%;
+    clear: both;
+}
+
+#menu li a
+{	
+	margin: 0px;
+	padding: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: grey;
+    position: absolute; 
+}
+
+#menu li a:hover {
+    font-size: 1.3em;
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.right
+{
+    float: right;
+}
+.left
+{
+    float: left;
+}
+
+#banner 
+{
+    width: 1080px;
+    margin: 5px auto;
+    text-align: left;
+    border: 1px solid grey;
+    padding: 20px;
+    background: #9c102d;
+    position: relative;
+    height: 80px;
+    border-radius:  25px;
+
+}
+
+#banner img
+{
+    height: 80px;
+}
+
+#banner p
+{
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-weight: bold;
+}
+
+#banner p a
+{
+    text-decoration: none;  
+    color: white;
+    font-weight: normal;
+}
+
+#banner p a:hover
+{
+    text-decoration: underline;  
+    color: white;
+}
+
+#banner p a
+{
+    text-decoration: none;  
+    color: white;
+}
+
+#banner h1 a
+{
+    font-size: 2em;
+    text-decoration: none;
+    text-shadow: 2px, 2px, grey;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+#banner h1 a:visited
+{
+    color: white;
+}
+
+#banner h1 a:hover
+{
+    font-size: 2.1em;
+}
+
+#bannerlink
+{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px grey
+}
+
+#bannerlink:visited
+{
+    color:  white; 
+}
+
+#bannerlink:hover
+{
+    font-size: 1.9em;   
+}
+
+.small_image
+{
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.big_image
+{
+    width: 100%;
+    margin: 5px;
+}
+
+#sort 
+{
+    float: right;
+    margin: 15px 20px;
+    align-items: right;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#sort p, #sort form
+{
+    float:  right;  
+    display: inline;
+    margin: 0px 5px;
+}
+
+.comments_wrapper
+{
+    margin-left: 40px;
+    margin-top:  30px;
+    clear: both;
+}
+
+.commentinfo 
+{
+    font-weight: bold;
+    font-size: small;
+    margin: 0px;
+}
+
+.commentinfo small
+{
+    font-weight: 100;
+}
+
+.commentinfo input
+{
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    float: right;
+}
+
+.commentContent 
+{
+    font-weight: 100;
+}
+
+#commentinput textarea
+{
+    height: 50px;
+    resize: none;
+}
+
+#commentinput input
+{
+    display: block;
+    border-radius: 5px;
+}
+
+#commentinput .textbox
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+ #leftedit .textbox
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.veticle input
+{
+    display: block;
+}
+
+.button
+{
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.1em;    
+    width: 120px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+
+#edit input
+{
+    border-radius: 5px;
+}
+
+#leftedit textarea
+{    
+    resize: none;
+    height: 200px;
+}
+
+#leftedit
+{
+    width: 70%;
+    float: left;
+}
+
+#rightedit
+{
+    width: 27%;
+    float: right;
+    position: relative;
+}
+
+#preview
+{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#remove
+{
+    width:  30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 3;
+}
+
+#login label
+{
+    display: inline;
+    width: 150px;
+}
+
+#login input
+{
+    border-radius: 5px;
+    margin: 10px;
+    display: block;
+    width: 150px;
+}
+
+.invalid, .valid
+{
+    padding: 1px 10px;
+    border-radius: 10px;
+}
+
+.invalid
+{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    display: none;
+}
+
+.valid 
+{
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    display: none;
+    font-weight: bold;
+}
