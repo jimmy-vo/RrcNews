@@ -1,7 +1,7 @@
 # RrcNews
 ## Description
 This is a demonstration of deploying a CMS Sites using Php and SQL Database
-![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/ER%20Diagram.png)
+* Main page: ![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_Main.JPG)
 
 ## Feature
 * Login, registration.
@@ -29,5 +29,5 @@ This is a demonstration of deploying a CMS Sites using Php and SQL Database
 * Sanitized all strings retrieved from GET or POST parameters to prevent HTML injection attacks.
 
 ## Relational Database
-![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/ER%20Diagram.png)
+![photo](https://github.com/jimmyvo2410/RrcNews/blob/master/doc/doc_ERD.png)
 
